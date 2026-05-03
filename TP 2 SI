@@ -1,0 +1,58 @@
+Consignas del trabajo
+1.	Realizar un sistema de información utilizando los ejemplos de transacción cotidiana. Ejemplo: Mercado Libre, Modo, o cualquier billetera virtual.
+2.	Revisar el diagrama de sistema de información explicando datos, información y conocimiento.
+3.	Realizar DER (Diagrama, Entidad, Relación).
+4.	Explicar paso a paso el proceso en el diagrama DER.
+
+Contexto: Mis vendedores
+Tengo una serie de clientes a quienes vendo mis productos. Mis compradores los visito formalmente en sus locales, realizo la venta y luego tienen que mandarles un email con la lista de los productos que compraron, la cantidad y el monto total de la factura, para que pueda verificar los valores y realizar el pago.
+
+Para construir el diagrama DER, voy a realizar los siguientes pasos:
+5.	Leo el texto y verifico cuáles son los sustantivos más importantes.
+6.	Al haber leído el texto puedo determinar las entidades, las relaciones y atributos.
+7.	Determino los atributos del diagrama con los sustantivos menos importantes.
+8.	Y al leer el texto voy a determinar las relaciones.
+
+Referencia de símbolos DER:
+Símbolo	Representa
+Rectángulo (E)	Entidad
+Rombo (R)	Relación
+Elipse (A)	Atributo
+
+1) Sistema de billetera virtual
+Entrada: Iniciar sesión del usuario para ingresar a la cuenta.
+Proceso: Verificación de dinero guardado en la cuenta; transferencia de dinero a otro usuario verificado.
+Salida: Comprobante del pago/recibo; transferencia completa con el dinero virtual transferido/recibido.
+
+2) Datos, Información y Conocimiento
+Datos (Entrada): Son hechos en bruto; por sí solos no tienen significado estratégico. Ejemplos: “Precio: $500”, “ID_Producto: 102”.
+
+Información (Salida): Es el resultado de procesar esos datos para que sean útiles. Ejemplo: una factura que suma todos los productos y muestra el total a pagar.
+
+Conocimiento: Surge al analizar la información para la toma de decisiones.
+
+3) Diagrama DER
+[Cliente] —Realiza→ [Venta] —Contiene→ [Producto]
+                         |----------¡
+                  Registra       Genera
+                     ↓           ↓
+                [Vendedor]      [Factura] —se paga con→ [Pago]
+
+4) Pasos para construir el DER
+Paso 1
+Se identifican los conceptos principales: Vendedor, Cliente, Local, Producto, Factura.
+
+Paso 2
+Las entidades se definen como los objetos con existencia independiente: Vendedor, Cliente, Producto, etc.
+Las relaciones son las acciones que conectan las entidades:
+•	Vendedor visita Cliente.
+•	Venta contiene Producto.
+
+Paso 3
+Los atributos son características (sustantivos menos importantes) asignados a cada entidad:
+•	Cliente: Nombre, E-mail, Dirección.
+•	Producto: Código, nombre del producto, precio unitario.
+•	Factura: Número de factura, Fecha, Cantidad.
+
+Paso 4
+Se establecen las relaciones: El Vendedor es quien inicia el proceso de visitar al Cliente, generando una Factura que detalla los Productos.
