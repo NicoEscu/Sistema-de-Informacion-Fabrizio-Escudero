@@ -1,0 +1,85 @@
+1.Definición (1 pt) 
+   Explica con tus palabras qué es un SI. Mencioná 3 recursos.
+
+2.Diagrama (1 pt)
+Dibujá los 4 componentes con el ejemplo de una app de pedidos de comida.
+
+3.V/F (1 pt) 
+"El hardware es el único recurso importante". Justificá.
+
+4.Aplicación (1 pt)   
+ Identificá entrada, proceso, salida y retroalimentación en un kiosco de diarios con tablet.                 
+
+5.Importancia (1 pt)
+Elegí una importancia y explicá con un ejemplo de tu vida.  
+
+6.Completar (1 pt)
+"Un SI captura \\\, los \\\ para convertirlos en \\\, y luego los \\\."         
+
+1.Etapas (1 pt)            
+Enumerá las 5 etapas con un emoji al lado de cada una.
+
+2.Planificación (1 pt)         
+    App para padres vean notas: ¿qué 3 cosas defenir antes de programar?
+
+3.AS-IS/TO-BE (1 pt)             
+ ¿Por qué es importante ver primero "cómo es ahora" si ya queremos cambiarlo?
+
+4.Diseño vs. Implementación (1 pt)  
+ ¿Diferencia? Usá el ejemplo de construir una casa.
+
+   RESPUESTAS:
+
+1. Definición (1 pt)
+Un Sistema de Información es un conjunto organizado de recursos que trabajan juntos para capturar datos, procesarlos y distribuir información útil dentro de una organización. Tres recursos que lo forman son:
+-Hardware (las computadoras y dispositivos físicos)
+-Software (los programas que procesan los datos)
+-Personas (los usuarios y técnicos que lo operan).
+
+2. Diagrama (1 pt) — App de pedidos de comida
+[ENTRADA]                        [PROCESO]              [SALIDA]
+El cliente elige  →        La app calcula    →    Se muestra el
+el pedido y su             el total, asigna       resumen del
+dirección                  el repartidor y        pedido, tiempo
+                          confirma el pago        estimado y ticket
+   
+                                                    ↑
+                                 [RETROALIMENTACIÓN]
+                                El cliente puntúa el pedido → el sistema mejora las recomendaciones futuras
+3. V/F (1 pt)
+FALSO. Ademas el hardware, el software, datos, personas y procedimientos permiten una computadora funcionar
+
+4. Aplicación (1 pt) — Kiosco de diarios con tablet
+Componente	Ejemplo
+Entrada:El cliente toca en la tablet qué diario o revista quiere comprar
+Proceso:El sistema verifica el stock disponible y calcula el precio total
+Salida:Se muestra el total a pagar y se imprime (o envía) el comprobante
+Retroalimentación:Si un diario se agota rápido, el sistema avisa para pedir más ejemplares
+
+5. Importancia (1 pt)
+Facilita la toma de decisiones:
+abriendo la pagina "G.E.I" para ver mis notas, sabre que materia estoy mal y poder estudiar más para mejorar esas notas malas
+
+6. Completar (1 pt)
+"Un SI captura datos, los procesa para convertirlos en información, y luego los distribuye."
+PARTE 2: Ciclo de Vida
+1. Etapas (1 pt)
+1.	Planificación — Se define el alcance, la viabilidad y los recursos necesarios📋
+2.	Análisis — Se entienden las necesidades del negocio y los usuarios🔍
+3.	Diseño — Se define cómo se va a construir el sistema🧩
+4.	Implementación — Se construye, prueba e instala el sistema⚙️
+5.	Mantenimiento — Se asegura que el sistema siga siendo útil y eficiente🛠️
+
+2. Planificación (1 pt) — App para que padres vean notas
+Antes de programar, hay que definir:
+-Funciones de la app:Ver notas, faltas y avisos
+-Quiénes la usaran:Padres, alumnos y docentes
+-Recursos necesarios:Tiempo, Presupuesto y programadores
+
+3. AS-IS / TO-BE (1 pt)
+Si no analizamos cómo funciona el sistema ahora (AS-IS), corremos el riesgo de diseñar uno nuevo que cometa los mismos errores, que ignore pasos importantes del proceso real, o que no se integre bien con lo que ya existe. Ver primero "cómo es ahora" nos permite entender qué está fallando y por qué, para después diseñar el "cómo queremos que sea" (TO-BE) de forma fundamentada y no solo por intuición.
+
+4. Diseño vs. Implementación (1 pt)
+Con el ejemplo de construir una casa:
+•	Diseño es cuando el arquitecto hace los planos: decide dónde van las habitaciones, qué materiales se usan, cómo será la estructura. Todavía no se puso un ladrillo, pero ya se sabe exactamente cómo va a quedar.
+•	Implementación es cuando los obreros toman esos planos y construyen la casa de verdad: colocan paredes, instalan cañerías, pintan.
